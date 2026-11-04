@@ -1,0 +1,6 @@
+﻿Installation icône en locales
+
+npm install -D @iconify-json/mdi
+npm install -D @iconify-json/tabler
+npm install -D @iconify-json/
+

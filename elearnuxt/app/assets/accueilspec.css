@@ -1,0 +1,36 @@
+/**
+.indication-couleur {
+  background: linear-gradient(blue, 10%, pink);
+}
+
+.degrade-lineaire {
+  background: linear-gradient(blue, pink);
+}
+}*/
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/600.css";
+@import "@fontsource/poppins/700.css";
+body {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --couleur-principale: #FF5F3D;
+  --couleur-secondaire: #4B75FF;
+  --couleur-tertiaire: #B6DB00;
+   --couleur-quaternaire: #E5F0FE;
+  --couleur-fond: #f4f6f9;
+  /*--police-principale: 'Segoe UI', sans-serif;*/
+  --espacement-base: 16px;
+}
+.ericbodyaccueil{
+  margin-top: 75px; /* Adjust this value based on your navbar height */
+}
+
+.ericnav{
+  position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: var(--couleur-principale);
+  }

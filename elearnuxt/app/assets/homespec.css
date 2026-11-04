@@ -1,0 +1,254 @@
+/**a globaliser*/
+/**#00e7ff/ cyan
+/**
+#FF5F3D ORANGE
+#566700 VERT
+#B6DB00 VERT CLAIR
+#E5F0FE GRIS
+#4B75FF BLEU
+/**
+:root {
+    --bs-breakpoint-xs0: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1400px;
+}
+    :root {
+  --couleur-principale: #FF5F3D;
+  --couleur-fond: #f4f6f9;
+  --police-principale: 'Segoe UI', sans-serif;
+  --espacement-base: 16px;
+}
+
+body {
+  background-color: var(--couleur-fond);
+  font-family: var(--police-principale);
+  padding: var(--espacement-base);
+}
+/*body*/
+@import "@fontsource/poppins/400.css";
+@import "@fontsource/poppins/500.css";
+@import "@fontsource/poppins/600.css";
+@import "@fontsource/poppins/700.css";
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.ericbody {
+    margin-top: 100px;
+    /* Adjust this value based on your navbar height */
+}
+
+:root {
+    --couleur-principale: #FF5F3D;
+    --couleur-secondaire: #4B75FF;
+    --couleur-tertiaire: #B6DB00;
+    --couleur-quaternaire: #E5F0FE;
+    --couleur-fond: #f4f6f9;
+    /*--police-principale: 'Segoe UI', sans-serif;*/
+    --espacement-base: 16px;
+}
+
+.ericcontent {
+    padding: 20px;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+.detailslesson p {
+    text-align: center;
+}
+
+.divmybutt {
+    display: flex;
+    justify-content: center;
+}
+
+.divcours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.voir {
+    background-color: var(--couleur-principale);
+}
+
+.mybutt.voir {
+    background-color: var(--couleur-principale);
+}
+
+.separator {
+    height: 2px;
+    border-bottom: 2px solid var(--couleur-quaternaire);
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.bigseparator {
+    height: 4px;
+    border-bottom: 5px solid var(--couleur-principale);
+    width: 100%;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+/**/
+.notesmall {
+    color: green;
+}
+
+.comptlessons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid var(--couleur-quaternaire);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.lescours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h2_title {
+    text-align: center;
+    /*margin-bottom: 20px;*/
+    color: var(--couleur-quaternaire);
+    font-weight: bold;
+    margin: 15px;
+}
+
+.h3_title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--couleur-tertiaire);
+    font-weight: bold;
+}
+
+.h3_s {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--couleur-secondaire);
+    font-weight: bold;
+}
+
+.ericnav {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: var(--couleur-principale);
+}
+
+.generalcompetences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--couleur-principale);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.h2div {
+    display: flex;
+    background-color: var(--couleur-principale);
+    padding: 7px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.ahref {
+    text-decoration: none !important;
+    color: #0764f1;
+    padding: 5px;
+    border: 1px solid var(--couleur-secondaire);
+    border-radius: 5px;
+}
+
+.containnote {
+    border: 1px solid var(--couleur-principale);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.txt {
+    color: var(--couleur-principale)
+}
+
+.bxtxt {
+    border-left: 1px solid var(--couleur-principale);
+    border-bottom: 1px solid var(--couleur-principale);
+    width: 7%;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.bxtxtwo {
+    border-left: 1px solid var(--couleur-secondaire);
+    border-bottom: 1px solid var(--couleur-secondaire);
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.answer {
+    margin-left: 25px;
+}
+
+.vhtml {
+    margin-bottom: 15px;
+}
+
+.greatbx {
+    margin-bottom: 15px;
+}
+
+.containh3 {
+    text-align: center;
+    color: var(--couleur-principale);
+}
+
+.containscore {
+    text-align: center;
+    color: var(--couleur-principale);
+}
+
+.containanswer {
+    border: 1px solid var(--couleur-principale);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.txtsecondaire {
+    color: var(--couleur-secondaire)
+}
+
+.txtertiaire {
+    color: var(--couleur-tertiaire)
+}
+
+.containequizz {
+    text-align: center;
+    color: var(--couleur-secondaire);
+    padding: 15px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+}
+
+.terminatequizz {
+    text-align: center;
+    color: var(--couleur-secondaire);
+}
