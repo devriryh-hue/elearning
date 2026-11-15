@@ -1,10 +1,6 @@
 
 
-#Login
 
-Par défaut: 
-Admin
-Password
 
 # eLearn — plateforme d’apprentissage en ligne
 
